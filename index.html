@@ -433,6 +433,28 @@
             </li>
           </ul>
         </div>
+
+        <div class="right-side">
+          <h3 class="singup-to">ZAPISZ SIĘ DO NEWSLETTERA</h3>
+
+          <form name="signup_form" autocomplete="on" novalidate>
+            <ul class="singup-list list">
+              <li class="singup-list-item">
+                <label class="singup-email">
+                  <input type="email" name="email" placeholder="Email"/>
+                </label>
+              </li>
+
+              <li class="singup-list-item">
+                <button class="singup-title" type="singup">Zapisz się
+                  <svg class="singup-icon">
+                    <use href="./images/sprite.svg#icon-icon-send"></use>
+                  </svg>
+                </button>
+              </li>
+            <ul>
+          </form>
+        </div>
       </div>
     </footer>
 
@@ -443,6 +465,47 @@
             <use href="./images/sprite.svg#close"></use>
           </svg>
         </button>
+
+        <h4 class="form-title">Zostaw swoje dane w formularzu poniżej</h4>
+
+        <form name="signup_form" autocomplete="on" novalidate>
+          <ul class="form-list list">
+            <li class="form-list-item">
+              Imie
+              <label class="form-label">
+              <input type="phone" name="phone" />
+            </label>
+            </li>
+            <li class="form-list-item">
+              Telefon
+              <label class="form-label">
+              <input type="phone" name="phone" />
+            </label>
+            </li>
+            <li class="form-list-item">
+              Email
+              <label class="form-label">
+              <input type="email" name="email" />
+            </label>
+          </li>
+          <li class="form-list-item">
+            Komentarz
+            <label class="form-label">
+              <textarea name="feedback" rows="5" resize="none" placeholder="Wprowadź tekst"></textarea>
+            </label>
+          </li>
+          </p>
+          <label>
+            <p class="rules-privacy">
+            <input type="checkbox" checked />
+            Oświadczam iż akceptuję 
+            <a class="rules" href="#">Regulamin</a> i <a class="privacy" href="#">Politykę Prywatności</a>.
+            </p>
+
+
+          <button class="send-btn" type="submit">Wyślij</button>
+          </ul>
+        </form>
       </div>
     </div>
     
