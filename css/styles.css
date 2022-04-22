@@ -203,7 +203,7 @@ img {
   content: "";
   width: 53px;
   height: 4px;
-  background: #2196F3;
+  background: var(--secondary-color);
   border-radius: 2px;
   
 }
@@ -215,7 +215,7 @@ img {
   content: "";
   width: 58px;
   height: 4px;
-  background: #2196F3;
+  background: var(--secondary-color);
   border-radius: 2px;
 }
 
@@ -587,7 +587,7 @@ cursor: pointer;
   display: flex;
   font-weight: 400;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.25;
   padding-left: 16px;
   align-items: center;
   letter-spacing: 0.03em;
@@ -611,7 +611,7 @@ cursor: pointer;
   padding-left: 42px;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.875;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
