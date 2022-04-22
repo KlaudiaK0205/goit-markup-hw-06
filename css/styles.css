@@ -675,10 +675,10 @@ cursor: pointer;
   height: 18px;
 }
 
-/* .is-hidden {
+.is-hidden {
   opacity: 0;
   pointer-events: none;
-} */
+}
 
 .form-title {
   font-weight: 700;
@@ -719,7 +719,7 @@ cursor: pointer;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   padding-left: 42px;
-   transition-duration: 250ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
