@@ -51,11 +51,6 @@ img {
   text-decoration: none;
 }
 
-/* .navigation-list .link:visited,
-.navigation-list .link:active {
-  color: var(--main-color);
-} */
-
 .container {
   width: 1200px;
   padding: 0 15px;
@@ -690,16 +685,7 @@ cursor: pointer;
   padding: 40px 40px 12px;
 }
 
-.form-box {
-  position: relative;
-  margin-bottom: 10px;
-}
 
-.form-box > .singup-form-icon {
-  position: absolute;
-  top: 14px;
-  left: 15px;
-}
 
 .singup-form-field {
   display: flex;
