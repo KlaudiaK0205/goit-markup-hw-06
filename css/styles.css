@@ -588,21 +588,23 @@ cursor: pointer;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-
+  padding-left: 16px;
   align-items: center;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
+  background: transparent;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
 }
 
-.email {
-  
+.singup-email:focus {
+  outline: none;
+  border-color: var(--secondary-color);
 }
 
-.singup-title {
+.singup-btn {
   display: flex;
   width: 200px;
   height: 50px;
@@ -610,7 +612,6 @@ cursor: pointer;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
-
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -618,11 +619,13 @@ cursor: pointer;
   background-color: var(--secondary-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .singup-icon {
   width:24px;
   height: 24px;
+  margin-left: 24px;
 }
 
 /* ========== END FOOTER ========== */
@@ -672,10 +675,10 @@ cursor: pointer;
   height: 18px;
 }
 
-/* .is-hidden {
+.is-hidden {
   opacity: 0;
   pointer-events: none;
-} */
+}
 
 .form-title {
   font-weight: 700;
@@ -734,7 +737,7 @@ color: #757575;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: var();
+  color: var(--secondary-color);
 
 }
 .rules,
