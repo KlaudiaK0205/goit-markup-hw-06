@@ -437,7 +437,7 @@
         <div class="right-side">
           <h3 class="singup-to">ZAPISZ SIĘ DO NEWSLETTERA</h3>
 
-          <form name="footer-signup_form" autocomplete="on" novalidate>
+          <form name="footer-signup-form" autocomplete="on" novalidate>
             <ul class="singup-list list">
               <li class="singup-list-item">
                 <label>
@@ -469,42 +469,49 @@
         <h4 class="form-title">Zostaw swoje dane w formularzu poniżej</h4>
 
         <form name="signup_form" autocomplete="on" novalidate>
-          <ul class="form-list list">
-            <li class="form-list-item">
-              Imie
-              <label class="form-label">
-              <input type="phone" name="phone" />
-            </label>
-            </li>
-            <li class="form-list-item">
-              Telefon
-              <label class="form-label">
-              <input type="phone" name="phone" />
-            </label>
-            </li>
-            <li class="form-list-item">
-              Email
-              <label class="form-label">
-              <input type="email" name="email" />
-            </label>
-          </li>
-          <li class="form-list-item">
+          <label class="singup-form-field">
+            Imie
+            <div class="form-box">
+              <input class="singup-field" type="text" name="username">
+              <svg class="singup-form-icon">
+                <use href="./images/sprite.svg#icon-person"></use>
+              </svg>
+            </div>
+          </label>
+
+          <label class="singup-form-field">
+            Telefon
+            <div class="form-box">
+              <input class="singup-field" type="phone" name="phone_number">
+              <svg class="singup-form-icon">
+                <use href="./images/sprite.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </label>
+
+          <label class="singup-form-field">
+            Email
+            <div class="form-box">
+              <input class="singup-field" type="email" name="email">
+              <svg class="singup-form-icon">
+                <use href="./images/sprite.svg#icon-email"></use>
+              </svg>
+            </div>
+          </label>
+        
+
+          <label class="singup-form-field">
             Komentarz
-            <label class="form-label">
-              <textarea name="feedback" rows="5" placeholder="Wprowadź tekst"></textarea>
-            </label>
-          </li>
-          </p>
-          <label>
-            <p class="rules-privacy">
-            <input type="checkbox" checked />
-            Oświadczam iż akceptuję 
-            <a class="rules" href="#">Regulamin</a> i <a class="privacy" href="#">Politykę Prywatności</a>.
-            </p>
+            <textarea class="singup-field-feedback" name="feedback" rows="5" placeholder="Wprowadź tekst"></textarea>
+          </label>
+    
+          <div class="policy-box">
+          <input id="user-policy" type="checkbox" class="modal-form-policy visually-hidden" name="policy" value="accept-policy"/>
+          <label for="user-policy" class="modal-form-policy-text">Oświadczam iż akceptuję <a class="rules-policy" href="#">Regulamin</a> i <a class="rules-policy" href="#">Politykę Prywatności</a>.
+          </label>
+        </div>
 
-
-          <button class="send-btn" type="submit">Wyślij</button>
-          </ul>
+          <button class="singup-form-btn" type="submit">Wyślij</button>
         </form>
       </div>
     </div>
