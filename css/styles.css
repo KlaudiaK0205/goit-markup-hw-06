@@ -646,7 +646,7 @@ cursor: pointer;
   width: 528px;
   min-height: 581px;
   background-color: var(--tertiary-color);
-  padding: 9px;
+  padding: 40px;
 }
 
 .close-btn {
@@ -670,10 +670,10 @@ cursor: pointer;
   height: 18px;
 }
 
-/* .is-hidden {
+.is-hidden {
   opacity: 0;
   pointer-events: none;
-} */
+}
 
 .form-title {
   font-weight: 700;
@@ -682,7 +682,7 @@ cursor: pointer;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-color);
-  padding: 40px 40px 12px;
+  padding-bottom: 12px;
 }
 
 .singup-form-field {
@@ -694,8 +694,6 @@ cursor: pointer;
   line-height: 1.667;
   letter-spacing: 0.01em;
   color: var(--septenary-color);
-  margin-left: 40px;
-  margin-right: 40px;
 }
 
 .singup-field {
@@ -742,13 +740,26 @@ cursor: pointer;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   resize: none;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.singup-field-feedback:placeholder-shown {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.singup-field-feedback:focus {
+  outline: none;
+  border-color: var(--secondary-color);
 }
 
 .policy-box {
   margin-top: 20px;
   margin-bottom: 30px;
- 
+  margin-left: 14px;
 }
 
 .modal-form-policy-text {
