@@ -521,6 +521,7 @@ cursor: pointer;
 
 .middle-side {
   display: block;
+  margin-right: 78px;
 }
 
 .join-us-title,
@@ -564,16 +565,12 @@ cursor: pointer;
   margin-right: 10px;
 }
 
-.right-side {
-  margin-left: 78px;
-}
-
 .singup-list {
   display: flex;
 }
 
 .singup-list-item:not(:last-child) {
-  margin-right: 24px;
+  margin-right: 12px;
 }
 
 .singup-email {
@@ -588,7 +585,6 @@ cursor: pointer;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   border: 1px solid rgba(255, 255, 255, 0.3);
-  box-sizing: border-box;
   background: transparent;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
@@ -767,11 +763,6 @@ cursor: pointer;
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--septenary-color);
-  align-content: center;
-  
-}
-.modal-form-policy {
-  align-items: center;
 }
 
 .modal-form-policy-text::before {
